@@ -15,7 +15,7 @@ java  : \u4e2d
 String g ="中";
 char[] b = g.toCharArray();
 for (char c :b){
-    System.out.println(c+"===>"+Integer.toHexString(c));
+	System.out.println(c+"===>"+Integer.toHexString(c));
 }
 
 //輸出    中===>4e2d
