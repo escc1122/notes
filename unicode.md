@@ -23,3 +23,9 @@ for (char c :b){
 
 
 javascript  : \u4e2d
+
+var g = '中';
+for (var i=0;i<g.length;i++){
+	options.response.write(username.charCodeAt(i)+"======="+username.charAt(i)+"<br>");
+}
+//輸出    20013=======中
