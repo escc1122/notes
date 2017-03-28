@@ -10,6 +10,16 @@
 
 ##unicode
 
-java  : \u4E2D
+java  : \u4e2d
 
-javascript  : \u4E2D
+String g ="中";
+char[] b = g.toCharArray();
+for (char c :b){
+    System.out.println(c+"===>"+Integer.toHexString(c));
+}
+
+//輸出    中===>4e2d
+
+
+
+javascript  : \u4e2d
