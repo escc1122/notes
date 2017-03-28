@@ -23,8 +23,9 @@ java  :
         System.out.println(c+"===>"+Integer.toHexString(c)+"===>"+unicode+"===>"+(int)c);
     }
 
+	
     int[] a = {20013,20108,30149};
-    String aaa = new String (a,0,3);
+    String aaa = new String (a,0,3);    //從0開始取3位
     System.out.println("=aaa==>"+aaa);
     //輸出
     中===>4e2d===>\u4e2d===>20013
