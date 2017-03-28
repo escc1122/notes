@@ -1,4 +1,4 @@
-## String "中"
+# String "中"
 
 2進位   : 100111000101101
 
@@ -8,7 +8,7 @@
 
 16進位  ：4E2D
 
-#unicode
+#＃unicode
 
 java  : \u4e2d
 
